@@ -95,21 +95,13 @@ client.on("message", (message) => {
     message.channel.send({embed: {
       color: 3447003,
       title: "Command List",
-      description: "**PREFIX:** ++ \n **bigtext:** displays what you say in big text (NO NUMBERS OR SPECIAL CHARACTERS ALLOWED) \n **wheel:** displays random name for oppression! \n **bunny:** random elk bunny picture! \n **grim:** random agilities & kariv cat pictures...with a twist:) \n **bebe:** random sbb dog picture! \n **mcblock:** returns random minecraft block type \n **mcmob:** returns random minecraft mob type \n **other commands:** transphobes, naz, stan"
+      description: "**PREFIX:** ++ \n **bigtext:** displays what you say in big text (NO NUMBERS OR SPECIAL CHARACTERS ALLOWED) \n **wheel:** displays random name for oppression! \n **bunny:** random elk bunny picture! \n **grim:** random agilities & kariv cat pictures...with a twist:) \n **bebe:** random sbb dog picture! \n **mcblock:** returns random minecraft block type \n **mcmob:** returns random minecraft mob type \n **other commands:** naz"
     }});
   }
   //joke commands
-  else if (command === "transphobes")
-  {
-    message.channel.send("**Will Die By Gun**")
-  }
   else if (command === "naz")
   {
-    message.channel.send("\n https://www.twitch.tv/gods_live")
-  }
-  else if (command === "stan")
-  {
-    message.channel.send("LOONA\nhttps://mercyofficial.tumblr.com/post/178934194934/you-still-havent-shown-us-your-owl-oc")
+    message.channel.send("\n https://twitter.com/iCy_OW")
   }
   else if (command === "bunny")
   {
